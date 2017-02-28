@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F0EC6D71E61AED000ADB4DF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0EC6D61E61AED000ADB4DF /* ResultViewController.swift */; };
 		8F86CDBE1E5BFBDE00A92A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86CDBD1E5BFBDE00A92A7C /* AppDelegate.swift */; };
 		8F86CDC01E5BFBDE00A92A7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86CDBF1E5BFBDE00A92A7C /* ViewController.swift */; };
 		8F86CDC31E5BFBDE00A92A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F86CDC11E5BFBDE00A92A7C /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		8F86CDC81E5BFBDE00A92A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F86CDC61E5BFBDE00A92A7C /* LaunchScreen.storyboard */; };
 		8F86CDD31E5BFBDE00A92A7C /* SlideshowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86CDD21E5BFBDE00A92A7C /* SlideshowAppTests.swift */; };
 		8F86CDDE1E5BFBDF00A92A7C /* SlideshowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86CDDD1E5BFBDF00A92A7C /* SlideshowAppUITests.swift */; };
+		8F86CDF31E5C047500A92A7C /* five.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F86CDEE1E5C047500A92A7C /* five.png */; };
+		8F86CDF41E5C047500A92A7C /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F86CDEF1E5C047500A92A7C /* four.png */; };
+		8F86CDF51E5C047500A92A7C /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F86CDF01E5C047500A92A7C /* one.png */; };
+		8F86CDF61E5C047500A92A7C /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F86CDF11E5C047500A92A7C /* three.png */; };
+		8F86CDF71E5C047500A92A7C /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F86CDF21E5C047500A92A7C /* two.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F0EC6D61E61AED000ADB4DF /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		8F86CDBA1E5BFBDE00A92A7C /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F86CDBD1E5BFBDE00A92A7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F86CDBF1E5BFBDE00A92A7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		8F86CDD91E5BFBDE00A92A7C /* SlideshowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F86CDDD1E5BFBDF00A92A7C /* SlideshowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppUITests.swift; sourceTree = "<group>"; };
 		8F86CDDF1E5BFBDF00A92A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F86CDEE1E5C047500A92A7C /* five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = five.png; sourceTree = "<group>"; };
+		8F86CDEF1E5C047500A92A7C /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four.png; sourceTree = "<group>"; };
+		8F86CDF01E5C047500A92A7C /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		8F86CDF11E5C047500A92A7C /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		8F86CDF21E5C047500A92A7C /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,8 @@
 		8F86CDBC1E5BFBDE00A92A7C /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				8F0EC6D61E61AED000ADB4DF /* ResultViewController.swift */,
+				8F86CDED1E5C047500A92A7C /* image5 */,
 				8F86CDBD1E5BFBDE00A92A7C /* AppDelegate.swift */,
 				8F86CDBF1E5BFBDE00A92A7C /* ViewController.swift */,
 				8F86CDC11E5BFBDE00A92A7C /* Main.storyboard */,
@@ -123,6 +137,18 @@
 				8F86CDDF1E5BFBDF00A92A7C /* Info.plist */,
 			);
 			path = SlideshowAppUITests;
+			sourceTree = "<group>";
+		};
+		8F86CDED1E5C047500A92A7C /* image5 */ = {
+			isa = PBXGroup;
+			children = (
+				8F86CDEE1E5C047500A92A7C /* five.png */,
+				8F86CDEF1E5C047500A92A7C /* four.png */,
+				8F86CDF01E5C047500A92A7C /* one.png */,
+				8F86CDF11E5C047500A92A7C /* three.png */,
+				8F86CDF21E5C047500A92A7C /* two.png */,
+			);
+			path = image5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +258,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F86CDF51E5C047500A92A7C /* one.png in Resources */,
 				8F86CDC81E5BFBDE00A92A7C /* LaunchScreen.storyboard in Resources */,
+				8F86CDF61E5C047500A92A7C /* three.png in Resources */,
+				8F86CDF41E5C047500A92A7C /* four.png in Resources */,
+				8F86CDF71E5C047500A92A7C /* two.png in Resources */,
+				8F86CDF31E5C047500A92A7C /* five.png in Resources */,
 				8F86CDC51E5BFBDE00A92A7C /* Assets.xcassets in Resources */,
 				8F86CDC31E5BFBDE00A92A7C /* Main.storyboard in Resources */,
 			);
@@ -261,6 +292,7 @@
 			files = (
 				8F86CDC01E5BFBDE00A92A7C /* ViewController.swift in Sources */,
 				8F86CDBE1E5BFBDE00A92A7C /* AppDelegate.swift in Sources */,
+				8F0EC6D71E61AED000ADB4DF /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +535,7 @@
 				8F86CDE41E5BFBDF00A92A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F86CDE51E5BFBDF00A92A7C /* Build configuration list for PBXNativeTarget "SlideshowAppTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +544,7 @@
 				8F86CDE71E5BFBDF00A92A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F86CDE81E5BFBDF00A92A7C /* Build configuration list for PBXNativeTarget "SlideshowAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +553,7 @@
 				8F86CDEA1E5BFBDF00A92A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
